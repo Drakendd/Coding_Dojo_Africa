@@ -1,0 +1,33 @@
+.nav{ display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    
+    }
+    .nav-title{
+    color: white;
+    }
+    .nav-links{
+        display: flex;
+        list-style: none;
+        gap:20px ;
+        color:whitesmoke ;
+        
+    }
+    .active{
+        display: flex;
+        color: white;
+        font-weight: bold;
+        
+    }
+    .btn{
+        display: flex;
+        color: white;
+        box-shadow: black;
+        background-color: rgb(31, 125, 207);
+    }
+
+    a{
+        color:white;
+        text-decoration: none;
+    }
