@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    color: rgb(64, 70, 70);
+}
+.y1{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 30px 30px 30px 30px ;
+}
+.y2{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 30px 30px 30px 30px ;
+
+}
+.y3{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 30px 30px 30px 30px ;
+
+}
