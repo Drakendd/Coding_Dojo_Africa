@@ -1,6 +1,12 @@
 h1{
     text-align: center;
     color: rgb(64, 70, 70);
+    
+}
+
+img{ 
+height: 300px;
+width: 300px;    
 }
 .y1{
     background-color: aqua;
@@ -8,6 +14,7 @@ h1{
     justify-content: space-evenly;
     padding: 30px;
     margin: 30px 30px 30px 30px ;
+    
 }
 .y2{
     background-color: pink;
@@ -15,6 +22,7 @@ h1{
     justify-content: space-evenly;
     padding: 30px;
     margin: 30px 30px 30px 30px ;
+    
 
 }
 .y3{
@@ -23,5 +31,6 @@ h1{
     justify-content: space-evenly;
     padding: 30px;
     margin: 30px 30px 30px 30px ;
+    
 
 }
