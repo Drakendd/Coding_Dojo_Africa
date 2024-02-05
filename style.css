@@ -5,7 +5,6 @@
     justify-content: space-around;
     align-items: center ;
 }
-
 .listnav{
     display: flex;
     gap: 20px;
@@ -15,19 +14,15 @@
     display: flex;
     gap: 20px;
     justify-content: center;
-
 }
-
 .Profilenext{
     display:flex ;
     align-items: center;
 }
-
 .signout{
     background-color: rgb(8, 28, 126);
     color: white;
 }
-
 .Usercard{
     border: 2px solid red;
     
@@ -35,9 +30,7 @@
 .upperCard{
     border: 2px solid pink;
     background-color: rgb(21, 0, 61);
-
 }
-
 .imguser{
     position: relative;
     left: 20px;
@@ -83,9 +76,9 @@ img {
 .img1 {
     margin-left: 20px;
     position: absolute;
-    top: 120px;
+    top: 200px
 }
-.img2 {
+.ig2 {
     width: 20px;
 }
 .box2{
@@ -125,8 +118,6 @@ img {
     padding: 4%;
     border-radius: 50%;
 }
-
-
 .pic2{
     border-radius: 50%;
 }
@@ -135,7 +126,6 @@ img {
 }
 .box4{
     border: 2px solid #000;
-
     width: 73%;
     border: 2px solid #000;
     padding: 4%;
@@ -145,8 +135,12 @@ img {
     display: flex;
     flex-direction: column;
     width: 600px;
-
 }
 .mast{
     display: flex;
+}
+
+.containerA{
+    display: flex;
+    flex-direction: column;
 }
