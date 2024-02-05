@@ -1,0 +1,146 @@
+.navbar{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}
+.listnav{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.Downnavbar{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.Profilenext{
+    display:flex ;
+    align-items: center;
+}
+.signout{
+    background-color: rgb(8, 28, 126);
+    color: white;
+}
+.Usercard{
+    border: 2px solid red;
+    
+}
+.upperCard{
+    border: 2px solid pink;
+    background-color: rgb(21, 0, 61);
+}
+.imguser{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.imgseattle{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.editdiv{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+.theBigBOX {
+    width: 500px;
+    border-color: black;
+    border: 2px solid #000;
+    justify-content: center;
+}
+.l1 {
+    width:340px; 
+    float: left; 
+    background-color: rgb(2, 71, 188); 
+    padding: 80px; 
+}
+.content {
+    margin-top: 220px;
+    margin-left: 50px;
+}
+.content p{
+    font-weight: bold;
+}
+img {
+    width: 100px;
+}
+.img1 {
+    margin-left: 20px;
+    position: absolute;
+    top: 200px
+}
+.ig2 {
+    width: 20px;
+}
+.box2{
+    border: 2px solid black;
+    width: 500px;
+    margin-top: 50px;
+}
+.t1{
+    position: relative;
+    bottom: 15px;
+    background-color: #000;
+    color: white;
+    padding-top: 10px;
+    margin-top: 15px;
+}
+.container{
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.box3{
+    border: 2px solid #000;
+    margin: 4%;
+    display: flex;
+    flex-direction: column;
+}
+.ti1{
+    background-color: grey;
+    margin: 0px;
+}
+.pics1{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.acc1{
+    padding: 4%;
+    border-radius: 50%;
+}
+.pic2{
+    border-radius: 50%;
+}
+.n1{
+    padding-right: 22px;
+}
+.box4{
+    border: 2px solid #000;
+    width: 73%;
+    border: 2px solid #000;
+    padding: 4%;
+    margin: 4%;
+}
+.con2{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+.mast{
+    display: flex;
+}
+
+.containerA{
+    display: flex;
+    flex-direction: column;
+}
