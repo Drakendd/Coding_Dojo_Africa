@@ -1,0 +1,100 @@
+.topnav {
+    display: flex;
+    background-color: rgb(188, 188, 188);
+    align-items: center;
+    gap: 380px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.topnav button {
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    padding: 10px;
+    box-shadow: 4px 6px black;
+}
+
+.active {
+    font-family: cursive;
+}
+
+.search {
+    width: 400px;
+}
+
+.ninja {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.noun {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+.plural {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.allcontainer {
+    display: flex;
+    border-style: ridge;
+    color: rgb(0, 0, 0);
+    height: 270px;
+    width: 700px;
+}
+
+.likes {
+    height: 18px;
+    display: flex;
+    align-items: center;
+    width: 80px;
+    background-color: rgba(255, 255, 0, 0.747);
+    color: black;
+    margin-left: 25px;
+}
+
+.p {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 20px;
+}
+
+.allcontainer2 {
+    display: flex;
+    border-style: ridge;
+    color: rgb(0, 0, 0);
+    height: 270px;
+    width: 700px;
+    margin-top: 30px;
+
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.butt2 {
+    height: 35px;
+    width: 150px;
+    background-color: greenyellow;
+    margin-bottom: 50px;
+
+}
+
+.allcontainer3 {
+    display: flex;
+    margin-left: 800px;
+    top: 500px;
+    border-style: ridge;
+    color: rgb(0, 0, 0);
+    height: 148px;
+    width: 215px;
+}
+.minicon{color: black;}
