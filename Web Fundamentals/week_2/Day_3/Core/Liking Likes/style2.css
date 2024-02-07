@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 2px black;
+}
+nav{
+    color: white;
+    background-color: black;
+    min-height: 50px;
+}
+header{
+    min-height: 50px;
+}
+.header1{
+    display: flex;
+    justify-content: center;
+}
+main{
+    min-height: 400px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.left{
+    height: 200px;
+    width:180px ;
+    border-style: ridge;
+    border-color: black;
+}
+.right{
+    width: 70%;
+}
+body{
+    width: 1000px;
+    margin: 0 auto;
+    font-family: cursive ;
+}
+img{
+    border-radius: 60%;
+    height: 90px;
+}
+.link{
+    border-style: ridge;
+    border-color: black;
+    min-width: 650px;
+    min-height: 150px;
+    margin-top: 20px;
+}
+.likes{
+    text-align: center;
+}
+.neil1{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px 20px 20px;
+
+}
+button{
+    width: 60px;
+    background-color:rgb(233, 220, 38);
+    color:black;
+    border: 1px black;
+    cursor: pointer;
+    box-shadow: 3px 3px 2px 1px;
+    font-weight: bold;
+}
+.link-left{
+    min-height:100px;
+    align-items: center;
+}
+.param{
+    margin: 0px 20px 20px 20px;
+}
