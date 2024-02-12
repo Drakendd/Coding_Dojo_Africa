@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather forecast </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="allcont">
+        <div class="navbar">
+            <h1>DojoWeather</h1>
+            <div class="citys">
+                <a onclick="myFunction()">Burbank</a>
+                <a onclick="myFunction()">Chicago</a>
+                <a onclick="myFunction()">Dallas</a>
+            </div>
+        </div>
+        <div class="josebar">
+            <h1>SanJose</h1>
+            <h4> show temperature in</h4>
+            <select class="temp">
+                <option value="C">c°</option>
+                <option value="F">F°</option>
+            </select>
+        </div>
+        <hr>
+        <div class="big">
+            <div class="dates">
+                <h1>Today</h1>
+                <img src="some_rain.png" class="rain">
+                <h3>some rain</h3>
+                <span class="degree_1">24°</span>
+                <span class="degree_2">18°</span>
+            </div>
+            <div class="dates">
+                <h1>Tommorrow</h1>
+                <img src="some_sun.png" class="rain">
+                <h3>some sun</h3>
+                <span class="degree_1">27°</span>
+                <span class="degree_2">19°</span>
+            </div>
+            <div class="dates">
+                <h1>Friday</h1>
+                <img src="some_clouds.png" class="rain">
+                <h3>some clouds</h3>
+                <span class="degree_1">21°</span>
+                <span class="degree_2">16°</span>
+            </div>
+            <div class="dates">
+                <h1>Saturday</h1>
+                <img src="some_sun.png" class="rain">
+                <h3>some sun</h3>
+                <span class="degree_1">26°</span>
+                <span class="degree_2">21°</span>
+            </div>
+        </div>
+        <div class="box">
+            <img src="cookie.png" alt="ph">
+            <h2>Stop cookie time</h2>
+            <p>we use cookies (sadly not the edible ones) to personalize<br>content and ads,toprovide social media
+                features
+                and to<br>analyse our traffic <a href="Read more...">Read more</a></p>
+            <button onclick="hide(this)" class=butt2>I Accept</button>
+        </div>
+        <script src="script.js"></script>
+
+
+</body>
+
+</html>
