@@ -1,0 +1,48 @@
+.ContainerCard{
+    background-color: gray;
+    padding: 10px;
+    width: 800px;
+    height: 480px;
+    
+}
+
+.UpperCard{
+    width: 800px;
+    height: 100px;
+    background-color: rgb(10, 133, 199);
+
+}
+.userimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: relative;
+    left: 20px;
+    bottom: 60px;
+}
+.info{
+    position: relative;
+    left: 20px;
+    bottom: 80px;
+}
+
+.LowerCard{
+    gap: 20px;
+    width: 800px;
+    height: 380px;
+    background-color: white;
+}
+.mapimg{
+    width: 20px ;
+    height: 20px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.param{
+    width: 20px ;
+    height: 20px;
+}

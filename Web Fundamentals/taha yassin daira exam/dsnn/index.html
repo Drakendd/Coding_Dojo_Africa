@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Sports News Network</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="navbar1">
+        <h2>live scores</h2>
+        <h5>SJC ninjas - 314 <br> NS pirates - 159</h5>
+        <h5>CHI Samurai -0 <br> TUL Wizards - 0</h5>
+        <h5>BOS Hackers -13 <br> TYO Youkai - 37</h5>
+        <h5>BOI Knights -5 <br> Sea seo lions - 11</h5>
+    </div>
+    <div class="navbar2">
+        <h1 class="dsnn">DSNN</h1>
+        <h2>Football</h2>
+        <h2>Basketball</h2>
+        <h2>BaseBall</h2>
+        <h2>Soccer</h2>
+        <h2>More..</h2>
+        <div class="topimg">
+            <img src="search-light.png">
+            <img src="hamburger-light.png">
+            <img src="user-circle-light.png">
+        </div>
+    </div>
+    <div class="allcont">
+        <div class="left">
+            <div class="topleft">
+                <h1>Top Stories</h1>
+                <hr>
+                <p>Ninjas up big in 5th<br>Best sports cities<br>Choi joins Hall off Fame<br>Tournament
+                    underway<br>Samurai at wizards...</p>
+            </div>
+            <div class="midleft">
+                <h3>Customize your DSNN</h3>
+                <button class="in" type="button">Sign in</button>
+                <button class="up" type="button">Sign up</button>
+            </div>
+            <div class="botleft">
+                <h4>Never miss a play</h4>
+                <button onclick="hide(this)" class=SUB>Subscribe</button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="textlive">
+                <h1><span>.Live</span> Ninjas leading Pirates </h1>
+            </div>
+            <div class="score">
+                <div>
+                    <img class="sanjoseimg" src="sjc-ninjas.png" alt="">
+                    <h3>san Jose</h3>
+                    <h1 class="NIN">Ninjas</h1>
+                    <h5 class="ninwl"> (10 W-3 L)</h5>
+                    <span id="k2" onclick="add(this)" class="win">314</a>
+                </div>
+                <div class="vs">
+                    <h1>VS</h1>
+                    <p id="demo">0:13 remaining<br>5th period</p>
+                </div>
+
+                <div>
+                    <img class="sanjoseimg" src="ns-pirates.png" alt="">
+                    <h3>Nova scotia</h3>
+                    <h1 class="PIR">Pirates</h1>
+                    <h5 class="ninwl"> (12 W- 2 L)</h5>
+                    <span id="k1" onclick="add(this)" class="lose"> 159</span>
+                </div>
+            </div>
+            <hr>
+            <div class="parag">
+                <p>A conservation match between the two top-preforming sides in the central<br>League Division with a
+                    number 1 seed at a stake...<a href="url">get live updates</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
