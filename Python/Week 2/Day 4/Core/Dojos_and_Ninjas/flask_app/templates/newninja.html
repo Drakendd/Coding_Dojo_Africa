@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Dojos and Ninjas</title>
+</head>
+<body>
+    <div class="d-flex flex-wrap justify-content-around">
+        <form action="/create/ninja" method="post" class="col-6 p-3">
+            <h2 class="text-center">New Ninja</h2>
+            <div class="dropdown">
+                <div class="fromsGR">
+                    <label for="dojo">Dojo:</label>
+                    <select name="dojo_id" id="">
+                        {%for one_dojo in allDojos%}
+                        <option value="{{one_dojo.id}}">{{one_dojo.name}}</option>
+                        {%endfor%}
+                    </select>
+                </div>
+                <div class="fromsGR">
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="fname" class="form-control">
+                </div>
+                <div class="fromsGR">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" name="lname" class="form-control">
+                </div>
+                <div class="fromsGR">
+                    <label for="age">Age:</label>
+                    <input type="number" name="age" class="form-control">
+                </div>
+                <input type="submit" value="Create" class="btn btn-primary">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
