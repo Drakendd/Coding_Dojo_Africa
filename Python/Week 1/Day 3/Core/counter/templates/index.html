@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Counter</title>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    #counter {
+        font-size: 48px;
+        text-align: center;
+    }
+    #buttons {
+        margin-top: 20px;
+    }
+    button {
+        font-size: 24px;
+        padding: 10px 20px;
+        margin: 0 10px;
+    }
+</style>
+</head>
+<body>
+    <div style="align-items: center; font-family: 'Courier New', Courier, monospace;font-size: xx-large;">COUNTER</div>
+<div id="counter">0</div>
+<div id="buttons">
+    <button style="background-color: rgb(14, 147, 255);color: rgb(227, 255, 14);"  id="addButton">Click</button>
+    <button style="background-color: red;color: grey;" id="resetButton">Reset</button>
+</div>
+
+<script>
+    let count = 0;
+    const counterElement = document.getElementById('counter');
+    const addButton = document.getElementById('addButton');
+    const resetButton = document.getElementById('resetButton');
+
+    addButton.addEventListener('click', increment);
+    resetButton.addEventListener('click', reset);
+
+    function updateCounter() {
+        counterElement.textContent = count;
+    }
+
+    function increment() {
+        count++;
+        updateCounter();
+    }
+
+    function reset() {
+        count = 0;
+        updateCounter();
+    }
+
+    updateCounter();
+</script>
+</body>
+</html>
