@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="d-flex justify-content-between mb-3">
+        <h2>Welcome {{user_login.first_name}}</h2>
+        <div class="d-flex gap-3">
+          <a href="/dashboard" class="btn btn-outline-info btn-lg"
+            >Back to Recipes</a
+          >
+
+          <form action="/logout" method="post">
+            <button type="submit" class="btn btn-outline-danger btn-lg">
+              Logout
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="d-flex justify-content-around mb-3">
+        <h2>{{recipe.name}}</h2>
+        <div class="d-flex gap-3">
+          <h4>Posted by:</h4>
+          <h4>{{user_create_recipe.first_name}}</h4>
+        </div>
+      </div>
+
+      <div class="card text-center">
+        <div class="col-10 mx-auto mt-3">
+          <div class="d-flex justify-content-center gap-4  align-items-center">
+            <h5 class="col-4">description:</h5>
+            <h5 class="col-6">{{recipe.description}}</h5>
+          </div>
+
+          <div class="d-flex justify-content-center gap-4 align-items-center">
+            <h5 class="col-4">date:</h5>
+            <h5 class="col-6">{{recipe.date}}</h5>
+          </div>
+
+          <div class="d-flex justify-content-center gap-4  align-items-center">
+            <h5 class="col-4">under 30 munites</h5>
+            <h5 class="col-6">
+              {%if recipe.under ==1%} Yes {%else%} No {%endif%}
+            </h5>
+          </div>
+          <div class="d-flex justify-content-center  gap-4  align-items-center">
+           <p class="col-4">Instructions :</p> 
+          <p class="col-6"> {{recipe.instructions}}</p>
+          </div>
+
+        
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
