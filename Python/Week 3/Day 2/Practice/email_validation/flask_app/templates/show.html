@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>show emails</title>
+</head>
+<body>
+    {% for message in get_flashed_messages(category_filter=['email'])%}
+        <li class="h6 text-danger">{{message}}</li>
+    {%endfor%}
+    <form action="/back" method="post">
+        <h2>Email Address Entered</h2>
+        {%for row in emails%}
+            <p>{{row.email}}</p>
+            <a href="/delete/{{row.email}}">Delete</a>
+        {%endfor%}
+        <button type="submit">Home</button>
+    </form>
+</body>
+</html>
