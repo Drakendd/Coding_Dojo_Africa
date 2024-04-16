@@ -1,0 +1,23 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.react {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+
+.container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+.container:not(:last-child) {
+  margin-bottom: 20px;
+}
