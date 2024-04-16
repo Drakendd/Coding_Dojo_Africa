@@ -1,0 +1,51 @@
+/* App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.head_app {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  border-bottom: 2px solid #0056b3;
+}
+
+.head_app button {
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0056b3;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.head_app button:hover {
+  background-color: #004080;
+}
+
+.head_app div {
+  margin-top: 20px;
+}
+
+.head_app ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.head_app li {
+  background-color: #ab2828;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.head_app li:hover {
+  background-color: #e0e0e0;
+}
