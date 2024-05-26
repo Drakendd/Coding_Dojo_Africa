@@ -15,8 +15,8 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body>
-	<table>
+<body class="container">
+	<table class="table" style="color: red;">
 		<thead>
 			<tr>
 				<th>Name</th>
