@@ -1,4 +1,4 @@
-package com.dhia.savetravels.models;
+package com.yassin.savetravels.models;
 
 import java.math.BigDecimal;
 import java.util.Date;

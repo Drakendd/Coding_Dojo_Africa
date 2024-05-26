@@ -1,4 +1,4 @@
-package com.dhia.savetravels;
+package com.yassin.savetravels;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

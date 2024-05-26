@@ -1,4 +1,4 @@
-package com.dhia.savetravels.repositories;
+package com.yassin.savetravels.repositories;
 
 
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.dhia.savetravels.models.Expense;
+import com.yassin.savetravels.models.Expense;
 
 
 @Repository

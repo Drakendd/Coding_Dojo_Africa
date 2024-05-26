@@ -1,4 +1,4 @@
-package com.dhia.savetravels.services;
+package com.yassin.savetravels.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
-import com.dhia.savetravels.models.Expense;
-import com.dhia.savetravels.repositories.ExpenseRepository;
+import com.yassin.savetravels.models.Expense;
+import com.yassin.savetravels.repositories.ExpenseRepository;
 
 @Service
 public class ExpenseService {

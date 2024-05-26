@@ -1,4 +1,4 @@
-package com.dhia.savetravels.controllers;
+package com.yassin.savetravels.controllers;
 
 
 import java.util.List;
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 
-import com.dhia.savetravels.models.Expense;
-import com.dhia.savetravels.services.ExpenseService;
+import com.yassin.savetravels.models.Expense;
+import com.yassin.savetravels.services.ExpenseService;
 
 import jakarta.validation.Valid;
 
