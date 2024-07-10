@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DAIRA TAHA YASSIN PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <!-- page 1 -->
+    <section id="main" class="center">
+        <div id="particles-js"></div>
+        <div class="user_info">
+            <h1 class="user_name">Taha Yassin Daira</h1>
+            <p>Full stuck Web Developer</p>
+            <a href="#About" class="btn">About Me</a>
+        </div>
+        <div class="user_img">
+            <img src="429592688_422745390236222_2137229477702785632_n.jpg" />
+        </div>
+    </section>
+
+    <!-- about yassin -->
+    <section class="about center" id="About">
+        <div class="center">
+            <h1 class="about_heading">About</h1>
+
+            <p>
+                My name is Taha Yassin Daira <br>
+                a 21-year-old graduate with a Bachelor's degree in Technology from a Russian university<br>
+                Started my joureny in Moscow,where i explored the dynamic field of healthcare.<br>Then i took a big step
+                to leave that domaine and Join coding dojo in africa (TUNISIA) so i can start exploring the IT field
+                <br> And that was one of the best things that i decided to learn to be a FULL STUCK WEB DEVELOPER.
+            </p>
+
+        </div>
+        <img src="img.png" alt="">
+    </section>
+    <section class="skills center" id="Skills">
+        <p class="skill_head">Skills</p>
+        <div class="skill_box center">
+            <div class="box">
+                <i class="fab fa-html5 fa-4x"></i>
+                <p>HTML</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-css3-alt fa-4x"></i>
+                <p>CSS</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-js-square fa-4x"></i>
+                <p>Javascript</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-python fa-4x"></i>
+                <p>Python</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects center" id="Projects">
+        <h1 class="project_heading">Contact Me</h1>
+        <div class="container2">
+            <div class="content">
+                <div class="left-side">
+                    <div class="address details">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="topic">Address</div>
+                        <div class="text-one">KEF,kef center |Ariana,El ghazela</div>
+                    </div>
+                    <div class="phone details">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="topic">Phone</div>
+                        <div class="text-one">+216 22486686</div>
+                    </div>
+                    <div class="email details">
+                        <i class="fas fa-envelope"></i>
+                        <div class="topic">Email</div>
+                        <div class="text-one">yassin.daira@gmail.com</div>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="topic-text">Send me a message</div>
+                    <p>All you need to do is to send a text message from here or call me and i'll answer in the fastest
+                        future.</p>
+                    <form action="#">
+                        <div class="input-box">
+                            <input type="text" placeholder="Enter your full name">
+                        </div>
+                        <div class="input-box">
+                            <input type="text" placeholder="Enter your email">
+                        </div>
+                        <div class="input-box message-box">
+                            <textarea placeholder="Type Your Message" name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="button">
+                            <input type="button" value="Send Now">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</body>
+</section>
+<footer class="center">
+    <h1>Stay Connected</h1>
+    <div class="social_media_icons">
+        <a href="https://www.instagram.com/its._.jikoo?igsh=MWlpY29sOWZhZmw3ag==" target="_blank_"><i
+                class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/jassem.abidi.184?mibextid=LQQJ4d" target="_blank_"><i
+                class="fab fa-facebook"></i></a>
+        <a href="https://github.com/JassemAb/Jassem_Repository" target="_blank_"><i class="fab fa-github"></i></a>
+    </div>
+</footer>
+
+<div class="toggle center active" id="toggle">
+    <div class="box center">
+        <a href="#main" class="links center">
+            <i class="fas fa-home"></i>
+            <p>Home</p>
+        </a>
+    </div>
+    <div class="box center">
+        <a href="#About" class="links center">
+            <i class="fas fa-address-card"></i>
+            <p>About</p>
+        </a>
+        <input type="checkbox" name="" id="btn" />
+        <a href="#Skills" class="links center">
+            <i class="fas fa-sliders-h"></i>
+            <p>Skills</p>
+        </a>
+    </div>
+    <div class="box">
+        <a href="#Projects" class=" links center">
+            <i class="fas fa-phone-alt"></i>
+            <p>Contact</p>
+        </a>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+<script src="particles.js"></script>
+<script>
+    const toggle = document.getElementById("toggle");
+    const btn = document.getElementById("btn");
+    const links = document.querySelectorAll(".links");
+
+    btn.addEventListener("click", (e) => {
+        toggle.classList.toggle("active");
+    });
+    links.forEach((e) => {
+        e.addEventListener("click", () => {
+            toggle.classList.toggle("active");
+        })
+    });
+</script>
+</body>
+
+</html>
